@@ -1,9 +1,8 @@
 package com.example.padraigcurtin.geoquiz;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -13,7 +12,7 @@ import android.widget.TextView;
  * Created by padraig.curtin on 03/02/2017.
  */
 
-public class CheatActivity extends Activity {
+public class CheatActivity extends AppCompatActivity {
     public static final String EXTRA_ANSWER_IS_TRUE =
             "com.example.padraigcurtin.geoquiz.answer_is_true";
     public static final String EXTRA_ANSWER_SHOWN =
